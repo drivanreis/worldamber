@@ -1,9 +1,118 @@
-<!-- File: index.html -->
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=pages/uniq.html">
-    <title>AmberView - Redirecionando...</title>
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldAmber - Conectando Negócios Globalmente</title>
+    <meta name="description" content="WorldAmber - Sua ponte para oportunidades de negócios internacionais. Entre em contato conosco e descubra como podemos ajudar sua empresa.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">WorldAmber</h1>
+                <p class="tagline">Conectando negócios ao redor do mundo</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <div class="hero-content">
+                    <h2 class="hero-title">Transforme suas oportunidades globais em realidade</h2>
+                    <p class="hero-description">
+                        A WorldAmber é sua parceira estratégica para expandir negócios internacionalmente. 
+                        Com expertise em mercados globais, conectamos empresas às melhores oportunidades ao redor do mundo.
+                    </p>
+                </div>
+            </section>
+
+            <section class="contact-section">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Entre em Contato</h3>
+                        <p>Pronto para expandir seus horizontes? Fale conosco e descubra como podemos ajudar sua empresa a alcançar novos mercados.</p>
+                        <div class="contact-benefits">
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🌍</span>
+                                <span>Alcance global</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🤝</span>
+                                <span>Parcerias estratégicas</span>
+                            </div>
+                            <div class="benefit-item">
+                                <span class="benefit-icon">📈</span>
+                                <span>Crescimento sustentável</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nome Completo *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Empresa *</label>
+                                <input type="text" id="company" name="company" required>
+                                <span class="error-message" id="companyError"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensagem *</label>
+                                <textarea id="message" name="message" rows="4" required placeholder="Conte-nos sobre seus objetivos e como podemos ajudar..."></textarea>
+                                <span class="error-message" id="messageError"></span>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn" id="submitBtn">
+                                <span class="btn-text">Enviar Mensagem</span>
+                                <span class="btn-loading" style="display: none;">Enviando...</span>
+                            </button>
+                        </form>
+                        
+                        <div id="successMessage" class="success-message" style="display: none;">
+                            <div class="success-content">
+                                <span class="success-icon">✅</span>
+                                <h4>Mensagem enviada com sucesso!</h4>
+                                <p>Recebemos sua mensagem e retornaremos em breve. Obrigado pelo interesse na WorldAmber!</p>
+                            </div>
+                        </div>
+                        
+                        <div id="errorMessage" class="error-message-container" style="display: none;">
+                            <div class="error-content">
+                                <span class="error-icon">❌</span>
+                                <h4>Ops! Algo deu errado</h4>
+                                <p>Não foi possível enviar sua mensagem. Tente novamente em alguns instantes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 WorldAmber. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
 </html>
