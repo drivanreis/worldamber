@@ -1,3 +1,5 @@
+// File: js/app.js
+
 // DOM Elements
 const contactForm = document.getElementById('contactForm');
 const submitBtn = document.getElementById('submitBtn');
@@ -128,9 +130,9 @@ async function submitForm(formData) {
             method: 'POST',
             mode: 'cors',
             headers: {
-                'Content-Type': 'application/x-www-form-urlencoded',
+                'Content-Type': 'application/json',
             },
-            body: new URLSearchParams(formData)
+            body: JSON.stringify(formData)
         });
 
         if (response.ok) {
@@ -186,10 +188,10 @@ contactForm.addEventListener('submit', async (e) => {
     
     // Prepare form data
     const formData = {
-        name: nameField.value.trim(),
+        nome: nameField.value.trim(),
         email: emailField.value.trim(),
-        company: companyField.value.trim(),
-        message: messageField.value.trim(),
+        empresa: companyField.value.trim(),
+        mensagem: messageField.value.trim(),
         timestamp: new Date().toLocaleString('pt-BR')
     };
     
