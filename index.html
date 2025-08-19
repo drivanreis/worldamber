@@ -3,58 +3,339 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorldAmber - Conectando Negócios Globalmente</title>
-    <meta name="description" content="WorldAmber - Sua ponte para oportunidades de negócios internacionais. Entre em contato conosco e descubra como podemos ajudar sua empresa.">
+    <title>WorldAmber - Centro Financeiro e Administrativo do Grupo Amber</title>
+    <meta name="description" content="WorldAmber é o centro financeiro e administrativo do Grupo Amber, oferecendo gestão estratégica, suporte e conectividade para todas as marcas do ecossistema.">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <h1 class="logo">WorldAmber</h1>
-                <p class="tagline">Conectando negócios ao redor do mundo</p>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo-container">
+                        <h1 class="logo">WorldAmber</h1>
+                        <span class="logo-subtitle">Grupo Amber</span>
+                    </div>
+                    <div class="nav-menu">
+                        <a href="#sobre" class="nav-link">Sobre</a>
+                        <a href="#clientes" class="nav-link">Empresas</a>
+                        <a href="#pagamentos" class="nav-link">Serviços</a>
+                        <a href="#contato" class="nav-link">Contato</a>
+                    </div>
+                    <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
-    <!-- Main Content -->
-    <main class="main">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
         <div class="container">
-            <section class="hero">
-                <div class="hero-content">
-                    <h2 class="hero-title">Transforme suas oportunidades globais em realidade</h2>
-                    <p class="hero-description">
-                        A WorldAmber é sua parceira estratégica para expandir negócios internacionalmente. 
-                        Com expertise em mercados globais, conectamos empresas às melhores oportunidades ao redor do mundo.
-                    </p>
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-network-wired"></i>
+                    <span>Centro Financeiro e Administrativo</span>
                 </div>
-            </section>
+                <h1 class="hero-title">Conectando o <span class="gradient-text">Ecossistema Amber</span></h1>
+                <p class="hero-description">
+                    Somos o núcleo estratégico que centraliza a gestão financeira, administrativa e operacional 
+                    de todas as marcas do Grupo Amber, oferecendo suporte integrado e soluções inovadoras.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">4+</div>
+                        <div class="stat-label">Empresas Conectadas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Gestão Integrada</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Suporte Disponível</div>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#contato" class="btn btn-primary">
+                        <span>Fale Conosco</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#sobre" class="btn btn-secondary">
+                        <i class="fas fa-play"></i>
+                        <span>Conheça Mais</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <section class="contact-section">
-                <div class="contact-container">
-                    <div class="contact-info">
-                        <h3>Entre em Contato</h3>
-                        <p>Pronto para expandir seus horizontes? Fale conosco e descubra como podemos ajudar sua empresa a alcançar novos mercados.</p>
-                        <div class="contact-benefits">
-                            <div class="benefit-item">
-                                <span class="benefit-icon">🌍</span>
-                                <span>Alcance global</span>
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-building"></i>
+                    <span>Sobre a WorldAmber</span>
+                </div>
+                <h2 class="section-title">O Coração do Grupo Amber</h2>
+                <p class="section-description">
+                    Centralização estratégica, gestão inteligente e conectividade total para o crescimento sustentável do ecossistema.
+                </p>
+            </div>
+            
+            <div class="sobre-grid">
+                <div class="sobre-content">
+                    <div class="sobre-text">
+                        <h3>Nossa Missão Estratégica</h3>
+                        <p>
+                            A WorldAmber atua como o centro nervoso do Grupo Amber, proporcionando uma gestão 
+                            financeira e administrativa centralizada que permite às nossas marcas focarem no que fazem de melhor: 
+                            entregar excelência aos seus clientes.
+                        </p>
+                        <p>
+                            Através de processos otimizados, tecnologia avançada e uma equipe especializada, 
+                            garantimos que cada empresa do grupo tenha o suporte necessário para crescer de forma sustentável e inovadora.
+                        </p>
+                        
+                        <div class="features-grid">
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Gestão Estratégica</h4>
+                                    <p>Análise de performance e direcionamento estratégico para cada marca.</p>
+                                </div>
                             </div>
-                            <div class="benefit-item">
-                                <span class="benefit-icon">🤝</span>
-                                <span>Parcerias estratégicas</span>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Segurança Financeira</h4>
+                                    <p>Controles rigorosos e transparência total nas operações financeiras.</p>
+                                </div>
                             </div>
-                            <div class="benefit-item">
-                                <span class="benefit-icon">📈</span>
-                                <span>Crescimento sustentável</span>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Integração Total</h4>
+                                    <p>Sistemas conectados que garantem eficiência operacional máxima.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="feature-item">
+                                <div class="feature-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="feature-content">
+                                    <h4>Suporte Especializado</h4>
+                                    <p>Equipe dedicada para atender as necessidades específicas de cada marca.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="contact-form-container">
-                        <form id="contactForm" class="contact-form">
+                </div>
+                
+                <div class="sobre-visual">
+                    <div class="visual-container">
+                        <div class="connection-diagram">
+                            <div class="central-node">
+                                <div class="node-content">
+                                    <i class="fas fa-gem"></i>
+                                    <span>WorldAmber</span>
+                                </div>
+                            </div>
+                            <div class="connection-lines">
+                                <div class="connection-line line-1"></div>
+                                <div class="connection-line line-2"></div>
+                                <div class="connection-line line-3"></div>
+                                <div class="connection-line line-4"></div>
+                            </div>
+                            <div class="satellite-nodes">
+                                <div class="satellite-node node-1">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="satellite-node node-2">
+                                    <i class="fas fa-cube"></i>
+                                </div>
+                                <div class="satellite-node node-3">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <div class="satellite-node node-4">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clientes Section -->
+    <section id="clientes" class="clientes-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Nossos Clientes</span>
+                </div>
+                <h2 class="section-title">Empresas do Grupo Amber</h2>
+                <p class="section-description">
+                    Conheça as marcas que fazem parte do nosso ecossistema integrado, cada uma especializada em seu segmento.
+                </p>
+            </div>
+            
+            <div class="empresas-grid" id="empresasGrid">
+                <!-- Cards serão inseridos dinamicamente via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Pagamentos Section -->
+    <section id="pagamentos" class="pagamentos-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-credit-card"></i>
+                    <span>Pagamentos e Suporte</span>
+                </div>
+                <h2 class="section-title">Centralização Inteligente</h2>
+                <p class="section-description">
+                    Oferecemos uma estrutura completa de pagamentos e suporte que simplifica operações e potencializa resultados.
+                </p>
+            </div>
+            
+            <div class="pagamentos-grid">
+                <div class="pagamento-card">
+                    <div class="card-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Gestão Financeira</h3>
+                    <p>Centralizamos todos os pagamentos, recebimentos e fluxos financeiros das empresas do grupo, garantindo controle total e transparência.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> Conciliação automática</li>
+                        <li><i class="fas fa-check"></i> Relatórios em tempo real</li>
+                        <li><i class="fas fa-check"></i> Múltiplas formas de pagamento</li>
+                    </ul>
+                </div>
+                
+                <div class="pagamento-card">
+                    <div class="card-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Suporte Técnico</h3>
+                    <p>Nossa equipe especializada oferece suporte completo em tecnologia, processos e operações para todas as marcas do grupo.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> Suporte 24/7</li>
+                        <li><i class="fas fa-check"></i> Equipe especializada</li>
+                        <li><i class="fas fa-check"></i> Resolução rápida</li>
+                    </ul>
+                </div>
+                
+                <div class="pagamento-card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Analytics e BI</h3>
+                    <p>Fornecemos análises detalhadas e inteligência de negócios para otimizar performance e identificar oportunidades de crescimento.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> Dashboards interativos</li>
+                        <li><i class="fas fa-check"></i> Métricas personalizadas</li>
+                        <li><i class="fas fa-check"></i> Insights estratégicos</li>
+                    </ul>
+                </div>
+                
+                <div class="pagamento-card">
+                    <div class="card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automação</h3>
+                    <p>Implementamos processos automatizados que reduzem custos operacionais e aumentam a eficiência de todas as operações.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> Workflows inteligentes</li>
+                        <li><i class="fas fa-check"></i> Integração de sistemas</li>
+                        <li><i class="fas fa-check"></i> Redução de erros</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="contato-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-envelope"></i>
+                    <span>Contato</span>
+                </div>
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <p class="section-description">
+                    Entre em contato conosco para conhecer melhor nossos serviços e como podemos apoiar seu negócio.
+                </p>
+            </div>
+            
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>E-mail Institucional</h4>
+                                <p>contato@worldamber.com</p>
+                                <a href="mailto:contato@worldamber.com" class="info-link">
+                                    Enviar E-mail <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>WhatsApp Business</h4>
+                                <p>+55 (11) 99999-9999</p>
+                                <a href="https://wa.me/5511999999999" class="info-link" target="_blank">
+                                    Iniciar Conversa <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Horário de Atendimento</h4>
+                                <p>Segunda a Sexta: 8h às 18h</p>
+                                <p>Sábado: 8h às 12h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contato-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
                             <div class="form-group">
                                 <label for="name">Nome Completo *</label>
                                 <input type="text" id="name" name="name" required>
@@ -66,7 +347,9 @@
                                 <input type="email" id="email" name="email" required>
                                 <span class="error-message" id="emailError"></span>
                             </div>
-                            
+                        </div>
+                        
+                        <div class="form-row">
                             <div class="form-group">
                                 <label for="company">Empresa *</label>
                                 <input type="text" id="company" name="company" required>
@@ -74,45 +357,83 @@
                             </div>
                             
                             <div class="form-group">
-                                <label for="message">Mensagem *</label>
-                                <textarea id="message" name="message" rows="4" required placeholder="Conte-nos sobre seus objetivos e como podemos ajudar..."></textarea>
-                                <span class="error-message" id="messageError"></span>
-                            </div>
-                            
-                            <button type="submit" class="submit-btn" id="submitBtn">
-                                <span class="btn-text">Enviar Mensagem</span>
-                                <span class="btn-loading" style="display: none;">Enviando...</span>
-                            </button>
-                        </form>
-                        
-                        <div id="successMessage" class="success-message" style="display: none;">
-                            <div class="success-content">
-                                <span class="success-icon">✅</span>
-                                <h4>Mensagem enviada com sucesso!</h4>
-                                <p>Recebemos sua mensagem e retornaremos em breve. Obrigado pelo interesse na WorldAmber!</p>
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" name="phone">
                             </div>
                         </div>
                         
-                        <div id="errorMessage" class="error-message-container" style="display: none;">
-                            <div class="error-content">
-                                <span class="error-icon">❌</span>
-                                <h4>Ops! Algo deu errado</h4>
-                                <p>Não foi possível enviar sua mensagem. Tente novamente em alguns instantes.</p>
-                            </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <select id="subject" name="subject">
+                                <option value="">Selecione um assunto</option>
+                                <option value="parcerias">Parcerias Comerciais</option>
+                                <option value="suporte">Suporte Técnico</option>
+                                <option value="financeiro">Serviços Financeiros</option>
+                                <option value="outros">Outros Assuntos</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Conte-nos sobre suas necessidades e como podemos ajudar..."></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn" id="submitBtn">
+                            <span class="btn-text">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar Mensagem
+                            </span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i>
+                                Enviando...
+                            </span>
+                        </button>
+                    </form>
+                    
+                    <div id="successMessage" class="success-message" style="display: none;">
+                        <div class="success-content">
+                            <i class="fas fa-check-circle success-icon"></i>
+                            <h4>Mensagem enviada com sucesso!</h4>
+                            <p>Recebemos sua mensagem e retornaremos em breve. Obrigado pelo interesse na WorldAmber!</p>
+                        </div>
+                    </div>
+                    
+                    <div id="errorMessage" class="error-message-container" style="display: none;">
+                        <div class="error-content">
+                            <i class="fas fa-exclamation-circle error-icon"></i>
+                            <h4>Ops! Algo deu errado</h4>
+                            <p>Não foi possível enviar sua mensagem. Tente novamente em alguns instantes.</p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
-    </main>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 WorldAmber. Todos os direitos reservados.</p>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <h3>WorldAmber</h3>
+                        <p>Centro Financeiro e Administrativo do Grupo Amber</p>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#sobre">Sobre</a>
+                        <a href="#clientes">Empresas</a>
+                        <a href="#pagamentos">Serviços</a>
+                        <a href="#contato">Contato</a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 WorldAmber - Grupo Amber. Todos os direitos reservados.</p>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <script src="js/app.js"></script>
+    <script type="module" src="js/app.js"></script>
 </body>
 </html>
