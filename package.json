@@ -9,7 +9,9 @@
     "lint": "eslint --quiet ./src",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "deploy-int": "gh-pages -d dist --branch gh-pages --remote origin --message 'Deploy via script'",
+    "deploy-subtree": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
